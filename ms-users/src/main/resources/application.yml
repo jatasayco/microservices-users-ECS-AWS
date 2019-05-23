@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      cors:
+        allow-credentials: true
+        allowed-headers: "*"
+        allowed-methods: "*"
+        allowed-origins: "*"
